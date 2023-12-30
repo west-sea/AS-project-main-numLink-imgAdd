@@ -18,7 +18,9 @@
         app:layout_constraintEnd_toStartOf="@id/freebut"
         app:layout_constraintHorizontal_bias="0.33"
         app:layout_constraintStart_toEndOf="@id/numbut"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:paddingBottom="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+ />
 
     <Button
         android:id="@+id/numbut"
@@ -32,7 +34,8 @@
         app:layout_constraintEnd_toStartOf="@id/imgbut"
         app:layout_constraintHorizontal_bias="0.33"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:paddingBottom="32dp"
+        app:layout_constraintBottom_toBottomOf="parent" />
 
     <Button
         android:id="@+id/freebut"
@@ -40,11 +43,13 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="684dp"
         android:text="FREE"
+        android:textColor="@color/black"
         android:drawableTop="@drawable/ic_free"
         android:background="@drawable/button_img"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.33"
         app:layout_constraintStart_toEndOf="@id/imgbut"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:paddingBottom="32dp"
+        app:layout_constraintBottom_toBottomOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
